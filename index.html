@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Pamphalet distrution</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 8</div>
+        <img
+          class="pamphlet"
+          src="https://digitalp-pamphlets.s3.amazonaws.com/Broadband.jpg"
+        />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 8</div>
+        <img
+          class="pamphlet"
+          src="https://digitalp-pamphlets.s3.amazonaws.com/Brownie.jpg"
+        />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 8</div>
+        <img
+          class="pamphlet"
+          src="https://digitalp-pamphlets.s3.amazonaws.com/College.jpg"
+        />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 8</div>
+        <img
+          class="pamphlet"
+          src="https://digitalp-pamphlets.s3.amazonaws.com/IMG_20220918_101953.jpg"
+        />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 8</div>
+        <img
+          class="pamphlet"
+          src="https://digitalp-pamphlets.s3.amazonaws.com/products.jpg"
+        />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 8</div>
+        <img
+          class="pamphlet"
+          src="https://digitalp-pamphlets.s3.amazonaws.com/RealinceFresh.jpg"
+        />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">7 / 8</div>
+        <img
+          class="pamphlet"
+          src="https://digitalp-pamphlets.s3.amazonaws.com/RealinceFreshUpdated.jpg"
+        />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">8 / 8</div>
+        <img
+          class="pamphlet"
+          src="https://digitalp-pamphlets.s3.amazonaws.com/Sergury.jpg"
+        />
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption">Broadband</p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="https://digitalp-pamphlets.s3.amazonaws.com/Broadband.jpg"
+            onclick="currentSlide(1)"
+            alt="Broadband"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="https://digitalp-pamphlets.s3.amazonaws.com/Brownie.jpg"
+            onclick="currentSlide(2)"
+            alt="Brownie"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="https://digitalp-pamphlets.s3.amazonaws.com/College.jpg"
+            onclick="currentSlide(3)"
+            alt="College"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="https://digitalp-pamphlets.s3.amazonaws.com/IMG_20220918_101953.jpg"
+            onclick="currentSlide(4)"
+            alt="The Church"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="https://digitalp-pamphlets.s3.amazonaws.com/products.jpg"
+            onclick="currentSlide(5)"
+            alt="Products"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="https://digitalp-pamphlets.s3.amazonaws.com/RealinceFresh.jpg"
+            onclick="currentSlide(6)"
+            alt="RealinceFresh"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="https://digitalp-pamphlets.s3.amazonaws.com/RealinceFreshUpdated.jpg"
+            onclick="currentSlide(7)"
+            alt="RealinceFresh Updated"
+          />
+        </div>
+
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="https://digitalp-pamphlets.s3.amazonaws.com/Sergury.jpg"
+            onclick="currentSlide(8)"
+            alt="Sergury"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
